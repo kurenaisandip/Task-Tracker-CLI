@@ -1,0 +1,14 @@
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Task-Tracker.exe
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Task-Tracker.deps.json
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Task-Tracker.runtimeconfig.json
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Task-Tracker.dll
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Task-Tracker.pdb
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.AssemblyInfoInputs.cache
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.AssemblyInfo.cs
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.csproj.CoreCompileInputs.cache
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.dll
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\refint\Task-Tracker.dll
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.pdb
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.genruntimeconfig.cache
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\ref\Task-Tracker.dll
