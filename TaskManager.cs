@@ -44,7 +44,19 @@ public class TaskManager
             createdAt = DateTime.Now
         };
 
+        tasks.Add(todos);
+        Console.WriteLine($"Task has been added sucessfully (Id: {newId}");
+        {
 
+        }
+
+
+    }
+
+    private void SaveTask()
+    {
+        var json = JsonConvert.SerializeObject(tasks, Formatting.Indented);
+        File.WriteAllText(filePath, json);
     }
 
 

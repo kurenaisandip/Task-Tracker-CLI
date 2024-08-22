@@ -13,3 +13,6 @@ D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.pdb
 D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.genruntimeconfig.cache
 D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\ref\Task-Tracker.dll
 D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.sourcelink.json
+D:\Personal Projects\Task-Tracker\Task-Tracker\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tracker.csproj.AssemblyReference.cache
+D:\Personal Projects\Task-Tracker\Task-Tracker\obj\Debug\net8.0\Task-Tra.84078CBB.Up2Date
