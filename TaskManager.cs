@@ -11,7 +11,7 @@ public class TaskManager
 {
     private List<ToDos> tasks = new List<ToDos>();
     int nextId;
-    private readonly string filePath = "tasks.json";
+    private readonly string filePath = "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Datatasks.json";
 
     public TaskManager()
     {
@@ -23,13 +23,22 @@ public class TaskManager
 
         if (File.Exists(filePath))
         {
-            var json = File.ReadAllText(filePath);
-            tasks = JsonConvert.DeserializeObject<List<ToDos>>(json) ?? new List<ToDos>();
-
-            if (tasks.Any())
+            try
             {
-                nextId = tasks.Max(t => t.Id) + 1;
+                var json = File.ReadAllText(filePath);
+                tasks = JsonConvert.DeserializeObject<List<ToDos>>(json) ?? new List<ToDos>();
+
+                if (tasks.Any())
+                {
+                    nextId = tasks.Max(t => t.Id) + 1;
+                }
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error loading tasks: " + e.Message);
+            }
+
+
         }
     }
 
@@ -46,9 +55,7 @@ public class TaskManager
 
         tasks.Add(todos);
         Console.WriteLine($"Task has been added sucessfully (Id: {newId}");
-        {
-
-        }
+        SaveTask();
 
 
     }
