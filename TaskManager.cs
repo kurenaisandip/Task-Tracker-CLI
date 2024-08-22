@@ -10,8 +10,8 @@ using Newtonsoft.Json;
 public class TaskManager
 {
     private List<ToDos> tasks = new List<ToDos>();
+    int nextId;
     private readonly string filePath = "tasks.json";
-    private int nextId = 1;
 
     public TaskManager()
     {
@@ -20,6 +20,7 @@ public class TaskManager
 
     private void LoadTask()
     {
+
         if (File.Exists(filePath))
         {
             var json = File.ReadAllText(filePath);
@@ -34,9 +35,10 @@ public class TaskManager
 
     public void AddTask(string name, string description)
     {
+        int newId = nextId;
         var todos = new ToDos
         {
-            Id = nextId++,
+            Id = newId,
             description = description,
             name = name,
             createdAt = DateTime.Now
