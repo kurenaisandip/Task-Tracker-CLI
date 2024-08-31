@@ -113,14 +113,40 @@ public class Program
                 break;
 
             case "list":
-                if (args.Length < 2)
+                if (args.Length == 2)
                 {
-                    manager.ListTasks();
+                    status = args[1].ToLower();
+                    if (status == "todo" || status == "in-progress" || status == "done")
+                    {
+                        if (status == "todo")
+                        {
+                            manager.ListtaskInToDo(status);
+                        }
+                        else if (status == "in-progress")
+                        {
+                            manager.ListtaskInProgress(status);
+                        }
+                        else if (status == "done")
+                        {
+                            manager.ListtaskDone(status);
+                        }
+                        else
+                        {
+                             manager.ListTasks();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid status. Use 'todo', 'in-progress', or 'done'.");
+                    }
+                }
+                else if (args.Length == 1)
+                {
+                    manager.ListTasks(); // Lists all tasks if no status is provided
                 }
                 else
-                { 
-                        Console.WriteLine("No tasks found !");
-                    
+                {
+                    Console.WriteLine("Usage: task-cli list [status]");
                 }
                 break;
 

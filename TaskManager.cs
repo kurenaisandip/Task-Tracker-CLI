@@ -136,6 +136,54 @@ public class TaskManager
         }
     }
 
+    public void ListtaskDone(string status)
+    {
+        var task = tasks.Where(task => task.status == status);
+        if (task.Any())
+        {
+            foreach (var tasks in task)
+            {
+                Console.WriteLine($"Id: {tasks.Id}, Name: {tasks.name}, Description: {tasks.description}, Status: {tasks.status}, Created At: {tasks.createdAt}, Updated At: {tasks.updatedAt}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No tasks found.");
+        }
+    }
+
+    public void ListtaskInProgress(string status)
+    {
+        var task = tasks.Where(task => task.status == status);
+        if (task.Any())
+        {
+            foreach (var tasks in task)
+            {
+                Console.WriteLine($"Id: {tasks.Id}, Name: {tasks.name}, Description: {tasks.description}, Status: {tasks.status}, Created At: {tasks.createdAt}, Updated At: {tasks.updatedAt}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No tasks found.");
+        }
+    }
+
+    public void ListtaskInToDo(string status)
+    {
+        var task = tasks.Where(task => task.status == status);
+        if (task.Any())
+        {
+            foreach (var tasks in task)
+            {
+                Console.WriteLine($"Id: {tasks.Id}, Name: {tasks.name}, Description: {tasks.description}, Status: {tasks.status}, Created At: {tasks.createdAt}, Updated At: {tasks.updatedAt}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No tasks found.");
+        }
+    }
+
 
 
     private void SaveTask()

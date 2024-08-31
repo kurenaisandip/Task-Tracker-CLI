@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\datatasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:datatasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\model\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:model\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 426,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToDos.cs",
-              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
-              "RelativeDocumentMoniker": "Model\\ToDos.cs",
-              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
-              "RelativeToolTip": "Model\\ToDos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:14:56.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskManager.cs",
-              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
-              "RelativeDocumentMoniker": "TaskManager.cs",
-              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
-              "RelativeToolTip": "TaskManager.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAcwGwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:00:15.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAswFQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:00:13.068Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -78,6 +43,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Datatasks.json",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Datatasks.json",
+              "RelativeDocumentMoniker": "Datatasks.json",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Datatasks.json",
+              "RelativeToolTip": "Datatasks.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T15:26:55.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDos.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
+              "RelativeDocumentMoniker": "Model\\ToDos.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
+              "RelativeToolTip": "Model\\ToDos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:14:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
+              "RelativeDocumentMoniker": "TaskManager.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
+              "RelativeToolTip": "TaskManager.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAswKoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:00:15.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAswI0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:00:13.068Z",
+              "EditorCaption": ""
             }
           ]
         }
