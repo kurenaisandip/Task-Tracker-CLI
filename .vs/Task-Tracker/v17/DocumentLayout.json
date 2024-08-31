@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\model\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:model\\todos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedHeight": 426,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ToDos.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
+              "RelativeDocumentMoniker": "Model\\ToDos.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Model\\ToDos.cs",
+              "RelativeToolTip": "Model\\ToDos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:14:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
               "RelativeDocumentMoniker": "TaskManager.cs",
               "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
               "RelativeToolTip": "TaskManager.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAwwGEAAAAFAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAcwGwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T15:00:15.998Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAADwv0MAAAARAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAswFQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T15:00:13.068Z",
               "EditorCaption": ""

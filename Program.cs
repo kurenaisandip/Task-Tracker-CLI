@@ -77,6 +77,41 @@ public class Program
                 }
                 break;
 
+            case "mark-in-progress":
+                if (args.Length < 2) {
+                    Console.WriteLine("Usage: dotnet run --mark-in-progress <ID>");
+                }
+                else
+                {
+                    if (int.TryParse(args[1], out int inProgressId))
+                    {
+                        manager.markInProgress(inProgressId);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID provided.");
+                    }
+                }
+                break;
+
+            case "mark-done":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: dotnet run --mark-done <ID>");
+                }
+                else
+                {
+                    if (int.TryParse(args[1], out int inProgressId))
+                    {
+                        manager.markInProgress(inProgressId);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID provided.");
+                    }
+                }
+                break;
+
             default:
                 Console.WriteLine("type dotnet run --lists for all the command");
                 break;

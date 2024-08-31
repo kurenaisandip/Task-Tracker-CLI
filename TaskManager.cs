@@ -97,6 +97,31 @@ public class TaskManager
         }
     }
 
+    public void markInProgress(int id)
+    {
+        var task = tasks.FirstOrDefault(task => task.Id == id);
+        if ((task != null))
+        {
+            task.status = "in-progress";
+            task.updatedAt = DateTime.Now;
+            File.WriteAllText(filePath, JsonConvert.SerializeObject(task, Formatting.Indented));
+            Console.WriteLine($"Task with id {id} has been marked in progress.");
+        }
+    }
+
+    public void markDone(int id)
+    {
+        var task = tasks.FirstOrDefault(task => task.Id == id);
+        if ((task != null))
+        {
+            task.status = "Done";
+            task.updatedAt = DateTime.Now;
+            File.WriteAllText(filePath, JsonConvert.SerializeObject(task, Formatting.Indented));
+            Console.WriteLine($"Task with id {id} has been marked in progress.");
+        }
+    }
+
+
 
     private void SaveTask()
     {

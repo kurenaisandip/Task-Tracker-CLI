@@ -1,50 +1,8 @@
-[
-  {
-    "Id": 0,
-    "name": "print report",
-    "description": "tomorrow we have submit the report",
-    "status": "todo",
-    "createdAt": "2024-08-22T17:10:31.0235194+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "Id": 1,
-    "name": "buy flowers",
-    "description": "flower should be rose",
-    "status": "todo",
-    "createdAt": "2024-08-22T17:15:32.8100787+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "Id": 2,
-    "name": "finish the assignmnet",
-    "description": "assignmnet of c",
-    "status": "todo",
-    "createdAt": "2024-08-22T17:16:16.2392768+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "Id": 3,
-    "name": "Finish Loading Cursor",
-    "description": "checklist, instruction",
-    "status": "todo",
-    "createdAt": "2024-08-22T17:20:36.5847617+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "Id": 4,
-    "name": "make login form",
-    "description": "change the background color of login form",
-    "status": "todo",
-    "createdAt": "2024-08-22T17:24:27.251416+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  },
-  {
-    "Id": 5,
-    "name": "submit proposal report",
-    "description": "in the sunday",
-    "status": "todo",
-    "createdAt": "2024-08-23T07:54:12.5016573+05:45",
-    "updatedAt": "0001-01-01T00:00:00"
-  }
-]
+{
+  "Id": 1,
+  "name": "changes",
+  "description": "are made",
+  "status": "in-progress",
+  "createdAt": "2024-08-22T17:15:32.8100787+05:45",
+  "updatedAt": "2024-08-31T21:15:05.2001105+05:45"
+}
