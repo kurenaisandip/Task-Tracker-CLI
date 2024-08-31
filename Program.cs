@@ -15,7 +15,7 @@ public class Program
 
         if (args.Length == 0)
         {
-            Console.WriteLine("No command provided. Use 'task-cli help' for usage information.");
+            Console.WriteLine("No command provided. Use 'dotnet run --help' for usage information.");
             return;
         }
 
@@ -112,9 +112,39 @@ public class Program
                 }
                 break;
 
-            default:
-                Console.WriteLine("type dotnet run --lists for all the command");
+            case "list":
+                if (args.Length < 2)
+                {
+                    manager.ListTasks();
+                }
+                else
+                { 
+                        Console.WriteLine("No tasks found !");
+                    
+                }
                 break;
+
+            case "help":
+                ShowHelp();
+                break;
+
+            default:
+                Console.WriteLine("type dotnet run -- help for all the command");
+                break;
+        }
+
+        static void ShowHelp()
+        {
+            Console.WriteLine("Task CLI - A simple task manager");
+            Console.WriteLine();
+            Console.WriteLine("Usage:");
+            Console.WriteLine("  dotnet run -- add \"Task description\"                 - Add a new task");
+            Console.WriteLine("  dotnet run -- update <ID> \"Updated task description\" - Update an existing task");
+            Console.WriteLine("  dotnet run -- delete <ID>                             - Delete a task");
+            Console.WriteLine("  dotnet run -- mark-in-progress <ID>                   - Mark a task as in-progress");
+            Console.WriteLine("  dotnet run -- mark-done <ID>                          - Mark a task as done");
+            Console.WriteLine("  dotnet run -- list [status]                       - List tasks, optionally by status");
+            Console.WriteLine("  dotnet run -- help                                    - Show this help message");
         }
 
         // Console.WriteLine("Input the Name of the Task");
