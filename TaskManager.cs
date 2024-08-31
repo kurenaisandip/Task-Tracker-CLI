@@ -121,6 +121,21 @@ public class TaskManager
         }
     }
 
+    public void ListTasks()
+    {
+        if (tasks.Any())
+        {
+            foreach (var task in tasks)
+            {
+                Console.WriteLine($"Id: {task.Id}, Name: {task.name}, Description: {task.description}, Status: {task.status}, Created At: {task.createdAt}, Updated At: {task.updatedAt}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No tasks found.");
+        }
+    }
+
 
 
     private void SaveTask()
