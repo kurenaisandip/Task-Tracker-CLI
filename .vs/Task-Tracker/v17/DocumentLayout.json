@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|d:\\personal projects\\task-tracker\\task-tracker\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8796A121-3EDA-4EC8-A04E-C2415C6186A1}|Task-Tracker.csproj|solutionrelative:taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 426,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
+              "RelativeDocumentMoniker": "TaskManager.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\TaskManager.cs",
+              "RelativeToolTip": "TaskManager.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAwwGEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:00:15.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Personal Projects\\Task-Tracker\\Task-Tracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAADwv0MAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:00:13.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

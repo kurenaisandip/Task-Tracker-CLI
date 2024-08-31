@@ -26,21 +26,59 @@ public class Program
             case "add":
                 if (args.Length < 2)
                 {
-                    Console.WriteLine("Usage: task-cli add \"Task name\"");
+                    Console.WriteLine("Usage: dotnet run --add \"Task name\"");
                 }
                 else
                 {
                     //           Console.WriteLine("Input the name of the task");
                     //         Console.WriteLine("Input the description of the task");
                     manager.AddTask(args[1], args[2]);
-                    Console.WriteLine(args[1] + args[2]);
-
+                    Console.WriteLine($"Task added: Name = {args[1]}, Description = {args[2]}");
                     //manager.AddTask(args[1]);
                 }
                 break;
 
+
+            case "update":
+
+                if (args.Length < 3)
+                {
+                    Console.WriteLine("Usage: dotnet run --update id,Task name,Task Description ");
+                }
+                else
+                {
+                    if (int.TryParse(args[1], out int id))
+                    {
+                        manager.Updatetask(id, args[2], args[3]);
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID provided.");
+                    }
+                }
+                break;
+
+            case "delete":
+                if (args.Length < 2)
+                {
+                    Console.WriteLine("Usage: dotnet run --delete id");
+                }
+                else
+                {
+                    if (int.TryParse(args[1], out int id))
+                    {
+                        manager.DeleteTask(id);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID provided.");
+                    }
+                }
+                break;
+
             default:
-                Console.WriteLine("type task-cli lists for all the command");
+                Console.WriteLine("type dotnet run --lists for all the command");
                 break;
         }
 

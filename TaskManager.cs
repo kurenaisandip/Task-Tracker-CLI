@@ -42,6 +42,8 @@ public class TaskManager
         }
     }
 
+
+
     public void AddTask(string name, string description)
     {
         int newId = nextId;
@@ -59,6 +61,42 @@ public class TaskManager
 
 
     }
+
+
+    // update method
+    public void Updatetask(int id, string name, string description)
+    {
+
+        // linq to check if data exists in the json file
+        var record = tasks.FirstOrDefault(task => task.Id == id);
+        if (record != null)
+        {
+            var loadData = tasks.FirstOrDefault(data => data.Id == id);
+
+            loadData.name = name;
+            loadData.description = description;
+            loadData.updatedAt = DateTime.Now;
+            File.WriteAllText(filePath, JsonConvert.SerializeObject(record, Formatting.Indented));
+            Console.WriteLine("The Task has been updated");
+        }
+        else
+        {
+            Console.WriteLine($"The id: {id} is not found in the saved file");
+        }
+
+    }
+
+    public void DeleteTask(int id)
+    {
+        var task = tasks.FirstOrDefault(task => task.Id == id);
+        if (task != null)
+        {
+            tasks.Remove(task);
+            SaveTask();
+            Console.WriteLine($"Task with id {id} has been deleted.");
+        }
+    }
+
 
     private void SaveTask()
     {
