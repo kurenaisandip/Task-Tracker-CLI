@@ -103,7 +103,7 @@ public class Program
                 {
                     if (int.TryParse(args[1], out int inProgressId))
                     {
-                        manager.markInProgress(inProgressId);
+                        manager.markDone(inProgressId);
                     }
                     else
                     {
